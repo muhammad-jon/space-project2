@@ -60,3 +60,55 @@
   text-decoration: none;
   color: var(--black);
 }
+
+/* 
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation */
+
+@keyframes chapOng {
+  from {
+    transform: translateX(0px);
+    border-radius: 0;
+  }
+  to {
+    transform: translateX(800px);
+    border-radius: 50%;
+  }
+}
+.box {
+  font-size: 40px;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 160px;
+  height: 160px;
+  border: 10px solid red;
+  padding: 10px;
+
+  animation-name: chapOng;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: cubic-bezier(0.12, -0.43, 0.84, 0.12);
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* iteration-count direction */
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+  transform: translateX(0px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box span {
+  border: 2px solid orange;
+  background-color: yellow;
+}
