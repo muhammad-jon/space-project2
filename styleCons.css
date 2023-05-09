@@ -1,0 +1,30 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 77px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}

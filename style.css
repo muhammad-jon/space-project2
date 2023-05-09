@@ -1,0 +1,62 @@
+:root {
+  --green: #668cff;
+  --black: #191a23;
+  --lightgray: #f3f3f3;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.services-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 85px 0;
+}
+
+.services-header h1 {
+  background-color: var(--green);
+  padding: 0 7px;
+  border-radius: 7px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.service-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 69px;
+  max-width: 600px;
+  border: 1px solid var(--black);
+  box-shadow: 0px 5px 0px var(--black);
+  border-radius: 45px;
+  padding: 50px;
+}
+
+.service-card h3 span {
+  background-color: var(--green);
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.service-card > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+}
+
+.service-card a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--black);
+}
